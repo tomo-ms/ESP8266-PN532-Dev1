@@ -1,16 +1,3 @@
-/**************************************************************************/
-/*!
-    This example will attempt to connect to an FeliCa
-    card or tag and retrieve some basic information about it
-    that can be used to determine what type of card it is.
-
-    Note that you need the baud rate to be 115200 because we need to print
-    out the data and read from the card at the same time!
-
-    To enable debug message, define DEBUG in PN532/PN532_debug.h
-
- */
-/**************************************************************************/
 #include <Arduino.h>
 #include <stdio.h>
 #include <PN532.h>
